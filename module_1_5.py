@@ -10,3 +10,8 @@ mutable_list [1] = 'bbb'
 mutable_list [2] = 'PiKa'
 mutable_list [3] = 146.8
 print (mutable_list)
+mutable_list.append('dance')
+mutable_list.extend('apple')
+mutable_list.extend(['apple'])
+mutable_list.remove('bbb')
+print (mutable_list)
